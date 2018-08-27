@@ -50,7 +50,7 @@ to which on subnet is used, in regards to subnet-a or subnet-b).
 You can now launch your EC2 instance. For the Network VPC paste the choose the name of the stack you created when launching
 the CloudFormation. The Subnet should be subnet-public-a.
 
-// Connecting to Amazon EC2 Instance
+## Connecting to Amazon EC2 Instance
 PATH-TO-PEM-FILE with a reference to the .pem file downloaded after launching the instance
 PUBLIC-IP with the IPv4 Public IP of the instance
 chmod 400 PATH-TO-PEM-FILE 
