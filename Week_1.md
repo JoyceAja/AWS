@@ -56,5 +56,6 @@ the CloudFormation. The Subnet should be subnet-public-a.
 
 ``` bash
 chmod 400 PATH-TO-PEM-FILE 
+ssh -i PATH-TO-PEM-FILE ec2-user@PUBLIC-IP 
 ```
 
