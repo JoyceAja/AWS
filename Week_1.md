@@ -1,6 +1,3 @@
-# AWS
-Notes from AWS online course
-
 ## Vocabulary
 <p>AWS Availability Zone (AZ)</p>
 <p>AWS Region</p>
