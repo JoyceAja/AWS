@@ -52,8 +52,8 @@ You can now launch your EC2 instance. For the Network VPC paste the choose the n
 the CloudFormation. The Subnet should be subnet-public-a.
 
 ## Connecting to Amazon EC2 Instance
-PATH-TO-PEM-FILE with a reference to the .pem file downloaded after launching the instance
-PUBLIC-IP with the IPv4 Public IP of the instance
+<p>PATH-TO-PEM-FILE with a reference to the .pem file downloaded after launching the instance</p>
+<p>PUBLIC-IP with the IPv4 Public IP of the instance</p>
 ``` bash
 chmod 400 PATH-TO-PEM-FILE 
 ssh -i PATH-TO-PEM-FILE ec2-user@PUBLIC-IP 
