@@ -53,9 +53,8 @@ the CloudFormation. The Subnet should be subnet-public-a.
 ## Connecting to Amazon EC2 Instance
 <p>PATH-TO-PEM-FILE with a reference to the .pem file downloaded after launching the instance</p>
 <p>PUBLIC-IP with the IPv4 Public IP of the instance</p>
+
 ``` bash
 chmod 400 PATH-TO-PEM-FILE 
 ```
-```bash
-ssh -i PATH-TO-PEM-FILE ec2-user@PUBLIC-IP 
-```
+
