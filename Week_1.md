@@ -47,7 +47,7 @@ When you go back to the VPC dashboard, in Your VPCs you will see the stack you j
 Next click on Subnets, you will see four subnets. Copy the subnet-id for public a (will clarify if there is a significance 
 to which on subnet is used, in regards to subnet-a or subnet-b).
 
-You can now launch your EC2 instance. For the Network VPC paste the choose the name of the stack you created when launching
+You can now launch your EC2 instance. For the Network VPC choose the name of the stack you created when launching
 the CloudFormation. The Subnet should be subnet-public-a.
 
 ## Connecting to Amazon EC2 Instance
@@ -55,5 +55,7 @@ the CloudFormation. The Subnet should be subnet-public-a.
 <p>PUBLIC-IP with the IPv4 Public IP of the instance</p>
 ``` bash
 chmod 400 PATH-TO-PEM-FILE 
+```
+```bash
 ssh -i PATH-TO-PEM-FILE ec2-user@PUBLIC-IP 
 ```
