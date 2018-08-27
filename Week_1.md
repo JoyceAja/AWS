@@ -15,7 +15,7 @@
 3. Phone Verification
 4. Select support plan
 
-## Launching Amazon EC
+## Launching Amazon EC2
 1. Open EC2 dashboard and launch instance
 2. Choose Amazon Machine Image (AMI)
 3. Choose an Instance Type
