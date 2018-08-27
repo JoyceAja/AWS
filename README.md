@@ -2,12 +2,13 @@
 Notes from AWS online course
 
 ## Vocabulary
-**AWS Availability Zone (AZ)**
-**AWS Region**
-**Amazon Elastic Compute Cloud(EC)**
-**Amazon Virtual Private Cloud (VPC)**
-**CloudFormation**
-**EC2 Metadata**
+<p>**AWS Availability Zone (AZ)**</p>
+<p>**AWS Region**</p>
+<p>**Amazon Elastic Compute Cloud(EC)**</p>
+<p>**Amazon Virtual Private Cloud (VPC)**</p>
+<p>**CloudFormation**</p>
+<p>**EC2 Metadata**</p>
+
 
 ## Getting started on AWS
 1. Create free aws account
@@ -53,5 +54,7 @@ the CloudFormation. The Subnet should be subnet-public-a.
 ## Connecting to Amazon EC2 Instance
 PATH-TO-PEM-FILE with a reference to the .pem file downloaded after launching the instance
 PUBLIC-IP with the IPv4 Public IP of the instance
+``` bash
 chmod 400 PATH-TO-PEM-FILE 
 ssh -i PATH-TO-PEM-FILE ec2-user@PUBLIC-IP 
+```
