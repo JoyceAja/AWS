@@ -2,12 +2,12 @@
 Notes from AWS online course
 
 ## Vocabulary
-<p>**AWS Availability Zone (AZ)**</p>
-<p>**AWS Region**</p>
-<p>**Amazon Elastic Compute Cloud(EC)**</p>
-<p>**Amazon Virtual Private Cloud (VPC)**</p>
-<p>**CloudFormation**</p>
-<p>**EC2 Metadata**</p>
+<p>AWS Availability Zone (AZ)</p>
+<p>AWS Region</p>
+<p>Amazon Elastic Compute Cloud(EC)</p>
+<p>Amazon Virtual Private Cloud (VPC)</p>
+<p>CloudFormation</p>
+<p>EC2 Metadata</p>
 
 
 ## Getting started on AWS
